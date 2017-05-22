@@ -3,7 +3,8 @@ var app = express()
 var path    = require("path");
 var crypto = require("crypto");
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://<dbuser>:<dbpassword>@ds149481.mlab.com:49481/heroku_n7h40qnb";
+var url = "mongodb://heroku_n7h40qnb:s3nj47ol515hrv42r0h76oo2et@ds149481.mlab.com:49481/heroku_n7h40qnb
+";
 
 app.get('/',function(req,res){
 	res.sendFile(path.join(__dirname+'/index.html'));
