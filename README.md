@@ -7,7 +7,7 @@ A scalable Url shortner using NodeJS and MongoDb
 * Get MongoDB docker image using " docker pull mongo:latest "
 * Run "docker run -v "$(pwd)":/data --name mongo -d mongo mongod --smallfiles " 
 * Run "docker run -p 8081:8081 --link mongo:mongo -it bvthakur/node " to link bvthakur/node to mongo 
-* Open <localhost:8081>
+* Open https://localhost:8081
 
 
 
